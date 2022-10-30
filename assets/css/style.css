@@ -1,0 +1,227 @@
+:root {
+    --main-color:#2F303A
+}
+
+body {
+    background-color: #FFFFFF;
+    width: 1600px;
+    height: 2349px;
+
+}
+
+    
+
+h2{
+    color: #212121;
+    text-align: center;        
+}
+
+h3{
+    height: 15.049504280090332px;
+        width: 270px;
+        left: 215px;
+        top: 774px;
+        border-radius: nullpx;
+        
+}
+ 
+p{
+    height: 70.5445556640625px;
+        width: 270px;
+        left: 215px;
+        top: 798.45556640625px;
+        border-radius: nullpx;
+}
+
+a:link {
+    text-decoration: none;
+    color: #212121;
+
+}
+
+a:hover {
+    color: #2196F3;
+
+}
+a:visited {
+    color: #212121
+}
+
+li {
+    display: inline-block
+}
+
+
+image{ 
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 368px;
+    width: 270px;
+    left: 215px;
+    top: 1635px;
+
+        
+}
+.header{
+    background-color: #FFFFFF;
+    display: flex;
+    width: 1600px;
+    height: 80px;
+    
+}
+#webstudio {
+    font-family: Raleway;
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 31px;
+        letter-spacing: 0.03em;
+        text-align: left;
+    
+}
+
+
+.main {background-color:#2F303A;
+        height: 600px;
+        width: 1600px;
+        left: 0px;
+        top: 80px;
+        font-family: Roboto; 
+        font-style: Black; 
+        font-size: 44px;
+        line-height: 60px; 
+        line-height: 116%; 
+        align: center vertical; 
+        align: top; 
+        letter-spacing: 6%
+           
+       
+}
+
+button {
+    background-color: #2196F3;
+    font-family: Roboto font-style: bold;
+    font-size: 16px;
+    line height: 30px;
+    Line height: 160%;
+    align: center;
+}
+
+h1 {
+    font-family: Roboto;
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    text-align: center;}
+
+.features {
+    height: 95px;
+    width: 1170px;
+    left: 215px;
+    top: 774px;
+    border-radius: nullpx;
+    padding-top: 94px;
+    padding-bottom: 100px;
+}
+
+
+ul.site-navigation li{
+    height: 16px;
+    width: 58px;
+    left: 552px;
+    top: 32px;
+    border-radius: nullpx;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    color: #212121;
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+    
+    
+}
+ul.contact-info li{
+    display: inline-block;
+    
+    
+}
+
+.features {
+    height: 95px;
+    width: 1170px;
+    left: 215px;
+    top: 774px;
+    border-radius: nullpx;
+    text-align: center;
+}
+
+ul.features li {
+    display: inline-block;
+    text-align: center;
+}
+
+.what-we-do {
+    height: 386px;
+    width: 1170px;
+    left: 215px;
+    top: 969px;
+    border-radius: 0px;
+}
+.what-we-do img {
+    height: 294px;
+    width: 370px;
+    left: 1015px;
+    top: 1061px;
+    border-radius: 0px;
+    display: inline-block;
+    text-align: center;
+}
+
+.team {
+    background-color: #f5f4fa;
+    height: 648px;
+    width: 1600px;
+    padding-top: 94px;
+    display: inline-block;
+}
+
+.team-image{ 
+    width: 270px;
+    height: 260px;    
+   
+}
+.links-on-page-2 {
+    height: 54px;
+    width: 611px;
+    left: 495px;
+    top: 174px;
+        
+}
+
+.pages {
+    height: 1360px;
+    width: 1170px;
+        
+}
+
+.pages img{
+    height: 404px;
+    width: 370px;
+    ;
+}
+
+
+
+.footer{
+    background-color: #757575;
+    height: 252px;
+    width: 1600px;
+  
+}
+
+
