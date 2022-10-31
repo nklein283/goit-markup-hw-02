@@ -5,7 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
     <title>What We Do</title>
 </head>
 
@@ -13,98 +16,105 @@
 
 <!--Header-->
     <header class="header">     
-            <h2><a href="index.html" id="webstudio">WebStudio</a></h2>
+            <h2><a href="index.html" id="webstudio" class= "logo">WebStudio</a></h2>
             <nav> 
                 <ul class="site-navigation">
                 <li>
-                    <a href ="index.html" id= "studio">Studio</a>
+                    <a href ="index.html" id= "studio" class="navigation-link">Studio</a>
                 </li>
                 <li>
-                    <a href="portfolio.html" id="portfolio">Portfolio</a>
+                    <a href="portfolio.html" id="portfolio" class="navigation-link">Portfolio</a>
                 </li>
                 <li>
-                    <a href="#" id="contacts">Contacts</a>
+                    <a href="#" id="contacts"class="navigation-link">Contacts</a>
                 </li>
                 </ul>
             </nav>
         <ul class="contact-info">
             <li>
-                <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+                <a href="mailto:info@devstudio.com" class="contact-link">info@devstudio.com</a>
             </li>
                 
             <li>
-                <a href="tel:+12127724150">+1 212-772-4150</a>
+                <a href="tel:+12127724150" class="contact-link">+1 212-772-4150</a>
             </li>   
          </ul>
     </header>
 
 <!--Main-->
 <main>
-    <section class="main">       
-            <h1>EFFECTIVE SOLUTIONS FOR YOUR BUSINESS</h1>
-            <button>Request Our Service</button>
+
+    <!--Hero-->
+    <section class="hero-section">       
+            <h1 class="hero-title">EFFECTIVE SOLUTIONS FOR YOUR BUSINESS</h1>
+            <button type="button" class="hero-button">Request Our Service</button>
     </section>
     
 
     <section>
-        
+        <h2>features</h2>
         <ul class="features">
             <li>
-                <h3>Attention To Detail</h3>
-                <p>We go into all the details and processes of your business to develop a customized solution.</p>
+                <h3 class="feature-item">Attention To Detail</h3>
+                <p class="feature-text">We go into all the details and processes of your business to develop a customized solution.</p>
             </li>
             <li>
-                <h3>Punctuality</h3>
-                <p>With us, you can feel safe and secure. An important principle of the company: respect your time and respect the agreed deadlines.</p>
+                <h3 class="feature-item">Punctuality</h3>
+                <p class="feature-text">With us, you can feel safe and secure. An important principle of the company: respect your time and respect the agreed deadlines.</p>
             </li>
             <li>
-                <h3>Planning</h3>
-                <p>You will be able to observe and participate in every phase of solution development and implementation.</p>
+                <h3 class="feature-item">Planning</h3>
+                <p class="feature-text">You will be able to observe and participate in every phase of solution development and implementation.</p>
             </li>
             <li>
-                <h3>Modern Technology</h3>
-                <p>We use innovative tools to solve assigned tasks. It's time to simplify work processes.</p>
+                <h3 class="feature-item">Modern Technology</h3>
+                <p class="feature-text">We use innovative tools to solve assigned tasks. It's time to simplify work processes.</p>
             </li>
         </ul>
-    </section>
-
-            
+    </section>           
             
             
             
     
     
     <section class="what-we-do">
-       
-            <h2>What We Do</h2>
-            <img src="assets/images/Computer1.jpg" width:370px; alt="Holding A Tablet">
-            <img src="assets/images/Computer3.jpg" width:370px; alt="Creating an App">
-            <img src="assets/images/Computer2.jpg" width:370px; alt="A Man Types">
+        <h2 class="what-we-do-title">What We Do</h2>
+        <ul>
+            <li>
+                <img src="images/computer1.jpg" width="370px" alt="Holding A Tablet">
+            </li>
+            <li>
+                <img src="images/computer3.jpg" width="370px"; alt="Creating an App">
+            </li>
+            <li>
+                <img src="images/computer2.jpg" width="370px"; alt="A Man Types">
+            </li>
+        </ul>    
     </section>
 
-
+<!--team members-->
     <section class="team">
-            <h2>Our Team</h2>
-            <ul class="team">
+            <h2 class="team-title">Our Team</h2>
+            <ul class="team-images">
                 <li>
-                <img src="assets/images/ChrisWalker.jpg" width:270px; alt="Christopher Walker" class="team-image">
-                <h3>Christopher Walker</h3>
-                <p>Product Designer</p>
+                <img src="images/chris_walker.jpg" width="270px" alt="Christopher Walker" class="team-image">
+                <h3 class="member-name">Christopher Walker</h3>
+                <p class="member-position">Product Designer</p>
                 </li>
                 <li>
-                <img src="assets/images/KylieEvans.jpg" width:270px; alt="Kylie Evan" class="team-image">
-                <h3>Kylie Evans</h3>
-                <p>Front End Developer</p>
+                <img src="images/kylie_evans.jpg" width="270px"; alt="Kylie Evan" class="team-image">
+                <h3 class="member-name">Kylie Evans</h3>
+                <p class="member-position">Front End Developer</p>
                 </li>
                 <li>
-                <img src="assets/images/RyanHarris.jpg" width:270px; alt="Ryan Harris" class="team-image">
-                <h3>Ryan Harris</h3>
-                <p>Marketing</p>
+                <img src="images/ryan_harris.jpg" width="270px"; alt="Ryan Harris" class="team-image">
+                <h3 class="member-name">Ryan Harris</h3>
+                <p class="member-position">Marketing</p>
                 </li>
                 <li>
-                <img src="assets/images/TylerMoore.jpg" width:270px; alt="Tyler Moore" class="team-image">
-                <h3>Tyler Moore</h3>
-                <p>JI Design</p>
+                <img src="images/tyler_moore.jpg" width="270px"; alt="Tyler Moore" class="team-image">
+                <h3 class="member-name">Tyler Moore</h3>
+                <p class="member-position">UI Design</p>
                 </li>
             </ul>  
     </section>     
@@ -112,13 +122,13 @@
 
 <!--Footer-->
     <footer class="footer">
-            <h2><a href="./index.html">WebStudio</a></h2>
-            <address> <a href="https://goo.gl/maps/y8P64BK66ZyMzh6W7">Park Ave. New York, NY 10065 United States</a>                
+            <h2><a href="./index.html" class="logo">WebStudio</a></h2>
+            <address> <a href="https://goo.gl/maps/y8P64BK66ZyMzh6W7" class="location">625 Park Ave. New York, NY 10065 United States</a>                
             </address>
             <ul>
-                <li><a href="email:info@example.com">info@example.com</a>
+                <li><a href="email:info@example.com" class="footer-contact">info@example.com</a>
                 </li>
-                <li><a href="tel:+12127724150">+1 212-772-4150</a>
+                <li><a href="tel:+12127724150"class="footer-contact">+1 212-772-4150</a>
                 </li>
             </ul> 
     </footer>          
