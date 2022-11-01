@@ -22,6 +22,9 @@ ul{
     list-style: none;
 }
 
+
+
+/* Header*/
 .logo{
     font-family: Raleway;
     font-size: 26px;
@@ -32,7 +35,8 @@ ul{
     color: var(--accent-color);
 
 }
-.navigation-link {    
+.navigation-link { 
+    font-weight: 500;   
     font-size: 14px;    
     line-height: calc(16/14);
     letter-spacing: 0.02em;
@@ -41,6 +45,9 @@ ul{
 }
 .navigation-link:hover,
 .navigation-link:focus {
+    color: var(--accent-color);
+}
+.navigation-link-current{
     color: var(--accent-color);
 }
 
@@ -58,16 +65,17 @@ ul{
 }
 
 .hero-section{
-    background-color: var(--secondary-text-color);
+    background-color: #2F303A;
 }
 .hero-title{
-    font-family: Roboto;
-     font-style: Black ;
+    color: var(--secondary-title-color);
+     font-weight: 900;
      font-size: 44px ;
      line-height:calc(60/44);
      line-height: 116%;
-     letter-spacing: 6%;
+     letter-spacing: 0.06em;
      text-transform: uppercase;
+     text-align: center;
 }
 
 .hero-button{
@@ -81,7 +89,7 @@ ul{
         background-color: var(--accent-color);
         cursor: pointer;
 }
-
+/*Features*/
 .feature-item{
         font-size: 14px;
         font-weight: 700;
@@ -96,40 +104,42 @@ ul{
        color: var(--secondary-text-color);
 }
 
-.what-we-do{
-    display: inline-block;
+.section_title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: calc(42/36);
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: var(--primary-title-color);
 }
 
+/* Team Members*/
 .team{    
     background-color: #F5F4FA;
 }
-.member-name {    
-        font-size: 16px;
-        line-height: calc(19/16);
-        
-        color: var(--primary-text-color);
+.member-name {   
+            font-size: 16px;
+            font-weight: 500;
+            line-height: calc(19/16);
+            letter-spacing: 0.03em;
+            text-align: center;
+        color: var(--primary-title-color)
 }
 
 .member-position{    
-        font-size: 16px;
-        line-height: calc(19/16);
-        color: var(--secondary-text-color);
-}
-
-.location {
-        font-size: 14px;
-        line-height: calc(24/14);
-        color: var(--secondary-text-color)       
-
-}
-
-.location:hover,
-.location:focus{
-color: var(--accent-color);
+            font-size: 16px;
+            font-weight: 400;
+            line-height: calc(19/16);
+            letter-spacing: 0.03em;
+            text-align: center;
+        color: var(--secondary-text-color)
 }
 
 
-.portfolio-link{
+
+/*Portfolio Page*/
+
+.portfolio-button{
     font-family: Roboto;
     font-size: 16px;
     font-weight: 500;
@@ -138,6 +148,7 @@ color: var(--accent-color);
     text-align: center;
     color: var(--primary-text-color);
     background-color: var(#F5F4FA);
+    cursor: pointer;
     
 }
 .portfolio-link:hover{
@@ -145,22 +156,64 @@ color: var(--accent-color);
     color: var(--secondary-title-color);
 }
 
+.portfolio-button:hover,
+.portfolio-button:focus {
+    background-color: var(--accent-color);
+    
+}
+.portfolio-images{
+    background-color: #E5E5E5;
+}
 
+
+
+.portfolio-picture-name  {
+        font-size: 18px;
+        font-weight: 700;
+        line-height: calc(36/17);
+        letter-spacing: 0.06em;
+        text-align: center;
+        color: \var(--primary-text-color);
+}
+
+
+
+.portfolio-description{    
+        font-size: 16px;
+        font-weight: 400;
+        line-height: calc (30/16);
+        text-align: center;
+        color: var(--secondary-text-color);
+
+}
+/*Footer*/
 
 .footer{
     background-color:var(--main-color) ;
 }
-.footer-contact{
-    
+.footer-contact{    
         font-size: 14px;
         font-weight: 400;
-        line-height: calc 24/14;
-        letter-spacing: 0.03em;
+        line-height: calc (24/14);
         color: var(--secondary-text-color);
+        opacity:0.6;
 }
 .footer-contact:hover,
 .footer-contact:focus {
     color: var(--accent-color)
+
 }
 
+
+.location {
+    font-style: normal;
+    font-size: 14px;
+    line-height: calc(24/14);
+    color: var(--secondary-title-color)
+}
+
+.location:hover,
+.location:focus {
+    color: var(--accent-color);
+}
 
